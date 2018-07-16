@@ -1,5 +1,9 @@
 function slider(selector, delay, img, start=true) {
 
+  if (!selector || !delay || !img) {
+    throw "Too few arguments";
+  }
+
   document.querySelector(selector).style.backgroundImage = "url('" + img[0] + "')";
   var saveDelay = delay;
 

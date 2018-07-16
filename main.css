@@ -8,11 +8,11 @@
     width: 100vw;
     height: 100vh;
 
-    -webkit-transition: all .5s ease-in;
-       -moz-transition: all .5s ease-in;
-        -ms-transition: all .5s ease-in;
-         -o-transition: all .5s ease-in;
-            transition: all .5s ease-in;
+    -webkit-transition: background .5s ease-in;
+       -moz-transition: background .5s ease-in;
+        -ms-transition: background .5s ease-in;
+         -o-transition: background .5s ease-in;
+            transition: background .5s ease-in;
 
     background-repeat: no-repeat;
     background-position: center;
